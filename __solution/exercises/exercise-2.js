@@ -82,7 +82,7 @@ const deleteGreeting = async (req, res) => {
 
     const r = await db.collection('two').deleteOne({ _id: _id.toUpperCase() });
     assert.equal(1, r.deletedCount);
-    res.status(204).json({ status: 204, _id });
+    res.status(204);
   } catch (err) {
     console.log(err.stack);
     res.status(500).json({ status: 500, data: req.body, message: err.message });
