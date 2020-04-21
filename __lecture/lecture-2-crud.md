@@ -17,6 +17,10 @@ What does it stand for?
 
 - What are the equivalent _express_ methods?
 - What are the corresponding _http_ codes?
+201 post          create
+200 get           read
+200 put / patch   update
+204 delete        delete
 
 ---
 

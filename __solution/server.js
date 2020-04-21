@@ -27,7 +27,7 @@ express()
   // exercise 2
   .post('/ex-2/greeting', createGreeting)
   .get('/ex-2/greeting/:_id', getGreeting)
-  .get('/ex-2/greeting', getGreetings)
+  .get('/ex-2/greetings', getGreetings)
   .delete('/ex-2/greeting/:_id', deleteGreeting)
   .put('/ex-2/greeting/:_id', updateGreeting)
 
